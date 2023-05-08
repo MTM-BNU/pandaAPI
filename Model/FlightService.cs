@@ -11,7 +11,7 @@ namespace pandaAPI.Model
 	{
         //Hosted web API REST Service base url
         string Baseurl = "https://airlabs.co/api/v9/";
-        string API_KEY = "&api_key=28b1cda9-24ff-4c3d-8f83-2195d132f66e";
+        string API_KEY = "&api_key={{API_KEY}}";
 
         public async Task<List<Flight>> GetDelaysAsync(string? type, string? airline_icao)
         {
